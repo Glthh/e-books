@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue&family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+
+h2{
+    font-family: 'Quicksand';
+}
+
+.fundo{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.fundo1{
+    background-image: url('fundo2.gif');   
+}
+
+.lv{
+    background-color: #FFF;
+    padding: 30px 30px;
+    border-radius: 10px;
+    width: 85%;
+    max-width: 500px;
+    margin-top: 10%;
+    margin-bottom: 100px;
+    text-align: center;
+}
+
+img{
+    border-radius: 10px;
+}
+
+h1{
+    font-family:'Comic Neue';
+    font-size:20px;
+}
+.letra-vermelha{
+    background: -webkit-linear-gradient(#ff0a00, #ff5858);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.btn {background-image: linear-gradient(to right, #50C9C3 0%, #96DEDA  51%, #50C9C3  100%)}
+.btn {
+   margin: 10px;
+   padding: 15px 45px;
+   text-align: center;
+   text-transform: uppercase;
+   transition: 0.5s;
+   background-size: 200% auto;
+   color: white;            
+   box-shadow: 0 0 20px #eee;
+   border-radius: 10px;
+   
+   border: none;
+ }
+
+.lv .price h2:first-child {
+  font-weight: 400;
+  text-decoration: line-through;
+  color: #ff0049;
+}
+
+.lv .price h2:last-child {
+  font-weight: 600;
+  color: #ff00dc;
+}
+
+.like {
+  
+  height: 20px;
+  width: 20px;
+  background-size: 20px;
+  display: flex;
+  place-self: flex-end;
+  margin-bottom: 0.3rem;
+  transition: 0.3s all ease;
+  cursor: pointer;
+}
+
+
+.marcado{
+    color: #FFF;
+    background-color: #36D1DC;
+    border-radius: 15px;
+    cursor: pointer;
+}
